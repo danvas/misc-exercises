@@ -1,0 +1,2 @@
+# misc-exercises
+Miscellaneous exercises
