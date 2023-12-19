@@ -8,8 +8,3 @@ body {
   height: 100vw;
   margin: 0;
 }
-
-canvas {
-  /* fix necessary to remove space at bottom of canvas */
-  /* display: block; */
-}
