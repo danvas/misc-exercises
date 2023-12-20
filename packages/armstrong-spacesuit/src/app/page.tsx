@@ -17,7 +17,6 @@ export default function LandingPage() {
         <Suspense fallback={null}>
           <ModelA7L scroll={scroll} />
           <ambientLight intensity={0.8} />
-          {/* <directionalLight position={[3.3, 1.0, -1]} intensity={2} /> */}
           <Environment files="/canvas/textures/moon_1k.hdr" />
         </Suspense>
       </Canvas>
