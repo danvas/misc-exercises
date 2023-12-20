@@ -1,0 +1,12 @@
+{
+  "name": "model-viewer-packages",
+  "private": true,
+  "description": "The repository for all <model-viewer> packages",
+  "scripts": {
+    "start": "cd packages/armstrong-spacesuit; npm install && npm run dev"
+  },
+  "workspaces": [
+    "packages/armstrong-spacesuit"
+  ],
+  "license": "MIT"
+}

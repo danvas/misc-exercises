@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Luma AI: Design Engineering Challenge
+Create a desktop landing page to showcase a 3D model 
 
-## Getting Started
+You can use any model you like but if you have nothing in mind then use Damaged Helmet
 
-First, run the development server:
+The text content of the page doesn’t matter, feel free to use Lorem Ipsum or go wild with made-up product details!
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project has wide scope with a range of possible outcomes, the outcomes build on each other giving you scope to implement more features should you like. Don’t worry if you don’t complete all features!
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Outcome 1
+Page embedding a real-time 3D model alongside text describing, model can be interactive
 
-## Learn More
+### Outcome 2
+Page embedding a 3D model with multiple sections, 3D model is shown from different angles in each section
 
-To learn more about Next.js, take a look at the following resources:
+### Outcome 3
+As the user scrolls between sections, the 3D model rotates to show a different part
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The same 3D model is persisted as the user scrolls between sections
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Outcome 4
+Model rotates smoothly between sections and smoothly rotates back when scrolling up, always showing the expected side for each section
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The user can interact with the model and it returns to its showcase position when the user finishes

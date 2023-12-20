@@ -1,6 +1,5 @@
 'use client'
 
-import styles from './page.module.css'
 import { Suspense, useRef } from 'react'
 import { Canvas } from '@react-three/fiber'
 import { Environment } from "@react-three/drei"
@@ -12,7 +11,7 @@ export default function LandingPage() {
   const scroll = useRef(0)
 
   return (
-    <main className={styles.main}>
+    <>
       <Canvas shadows>
         <Suspense fallback={null}>
           <ModelA7L scroll={scroll} />
@@ -21,6 +20,6 @@ export default function LandingPage() {
         </Suspense>
       </Canvas>
       <Overlay ref={overlay} scroll={scroll} />
-    </main>
+    </>
   )
 }
