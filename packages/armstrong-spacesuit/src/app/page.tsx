@@ -1,12 +1,12 @@
 'use client'
 
 import styles from './page.module.css'
-import Scene from '@/components/canvas/Scene'
+import { Suspense, useRef } from 'react'
 import { Canvas } from '@react-three/fiber'
-import { Suspense, useState, useRef } from 'react'
-import Overlay from '@/components/Overlay'
-import { ModelA7L } from '@/components/canvas/ModelA7L'
 import { Environment } from "@react-three/drei"
+import Overlay from '@/components/Overlay'
+import { ModelA7L } from '@/components/ModelA7L'
+
 export default function LandingPage() {
   const overlay = useRef<HTMLDivElement>()
   const scroll = useRef(0)
